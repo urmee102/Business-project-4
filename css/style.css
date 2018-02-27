@@ -1,0 +1,372 @@
+.top-header{
+    background: #f0f2f4;
+}
+.top-header ul{}
+.top-header ul li{}
+ li.nav-item{
+    display: flex;
+    margin-left: 7px;
+ }
+.top-header ul li a{}
+.top-header ul li a.nav-link{
+    font-size: 25px;
+    color: #424242;
+}
+#nav-bar{
+    border-left: 1px solid #42424242;
+}
+ p{
+    padding-top: 15px;
+    margin-left: -7px;
+}
+span{
+    color: #1287bf;
+}
+.header-section{
+    background-color: #fff;
+    padding-top: 30px;
+}
+.logo{}
+.logo a{}
+img.img-fluid{
+}
+.menu{
+    position: relative;
+}
+.menu ul{
+    position: absolute;
+    left: 83%;
+    bottom: 100%;
+    width: 100%;
+}
+.menu ul li{
+}
+.menu ul li.menu-item{
+    font-size: 18px;
+    list-style: none;
+    }
+.menu ul li a{
+    text-decoration: dotted;
+}
+.menu ul li a.menu-link{
+   
+    color: #424242;
+    font-weight: 700;
+    margin-left: 16px;
+}
+
+.menu ul li a.menu-link:hover{
+    color:#de2b24;
+}
+.menu button{
+    position: absolute;
+    left: 224%;
+    bottom: 100%;
+    background: #de2b24;
+    color: #fff;
+    font-size: 18px;
+}
+.btn button{}
+#menu{margin-top: -10px;}
+.banner-section{
+    padding: 230px 0px;
+    background-size: cover;
+    background: url(../images/banner.jpg);
+    margin-top: 30px;
+    background-repeat: no-repeat;
+    /* padding-bottom: 185px; */
+}
+.banner-text{
+    text-align: center;
+}
+.banner-text h2{
+    margin-bottom: 0;
+    font-weight: 600;
+    color: #fff;
+    font-size: 48px;
+    padding-bottom: 7px;
+    margin-top: -30px;
+}
+.banner-text h4{
+    margin-bottom: 0;
+    color: #ffffff;
+    padding-bottom: 40px;
+    font-size: 28px;
+}
+.consult{
+    text-align: center;
+    margin-top: -20px;
+}
+.consult button{
+    background: #F8CD53;
+    color: #fff;
+    font-size: 22px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.consult button:hover{
+    color: #688fca;
+}
+.aboutUs-section{
+    padding-top: 70px;
+}
+.about-text{
+    text-align: center;
+    float: right;
+    margin-right: -150px;
+}
+.about-text h1{
+    font-weight: 400;
+    font-size: 46px;
+    margin-bottom: -20px;
+}
+.about-text p{
+    font-size: 20px;
+    font-weight: 400;
+}
+.about-text hr{
+    width: 16%;
+    height: 4px;
+    background: #424242;
+}
+.about{
+    padding-top: 60px;
+    padding-left: 40px;
+}
+.like{}
+.about h5{
+    font-weight: 500;
+    color: #424242;
+    margin-top: 15px;
+    font-size: 26px;
+}
+.about p{
+    padding-top: 2px;
+}
+.book{}
+.message{}
+.about span{
+    font-size: 65px;
+    margin-left: 100px;
+}
+span.icon{
+    color: #dd2a24;
+}
+span.icon1{
+    color: #f8cd53;
+}
+.approach-section{
+    padding-top: 70px;
+    background: #f3f3f3;
+    margin-top: 70px;
+}
+.approach-text{
+    text-align: center;
+    float: right;
+    margin-right: -245px;
+    margin-bottom: 55px;
+}
+.approach-text h1{
+    font-weight: 400;
+    font-size: 46px;
+    margin-bottom: -14px;
+}
+.approach-text p{
+    font-size: 20px;
+    font-weight: 400;
+}
+.approach-text hr{
+    width: 15%;
+    height: 4px;
+    background: #424242;
+}
+.protImg{
+    position: relative;
+}
+.protImg h6{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    line-height: 95px;
+    background: #de2b24;
+    right: -5%;
+    bottom: 30%;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    visibility: visible;
+animation-name: bounceOutLeft;
+}
+.protText{
+    background: #fff;
+    padding: 25px;
+    margin-top: 20px;
+    animation-duration: 2s;
+    animation-delay: 0.7s;
+    animation-name: bounceOutLeft;
+    visibility: visible;
+}
+.protImg1{
+    position: relative;
+}
+.protImg1 h6{
+      position: absolute;
+      width: 100px;
+      height: 100px;
+      background: #de2b24;
+      left: -5%;
+      bottom: 30%;
+      color: #fff;
+      text-align: center;
+      font-size: 25px;
+      line-height: 95px;
+      visibility: visible;
+      animation-name: shake;
+}
+.protText1{
+    background: #fff;
+    padding: 25px;
+    margin-top: 20px;
+    animation-duration: 2s;
+    animation-delay: 0.7s;
+    animation-name: bounceOutLeft;
+    visibility: visible;
+}
+.protText1 p{
+    
+}
+.submit{
+    background: #1287bf;
+    min-height: 115vh;
+    color: #fff;
+    padding-top: 29px;
+}
+.submitText{
+    padding-top: 30px;
+}
+.submitText h1{
+    font-size: 30px;
+    padding-top: 40px;
+    margin-bottom: -10px;
+}
+.submitText p{
+    color: #fff;
+}
+.submitText button{
+    color: #fff;
+    background: #1287bf;
+    border: 0;
+    font-size: 50px;
+    margin-top: -20px;
+}
+.formRel{
+    position: relative;
+}
+form{
+    width: 70%;
+    height: 60vh;
+    background: #fff;
+    margin: 0 auto;
+    visibility: visible;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+    animation-name: swing;
+}
+.formDiv{
+    padding-top: 50px;
+}
+.formDiv .name{
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    height: 50px;
+    border: 2px solid #1287bf;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+.formDiv .number{
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    height: 50px;
+    border: 2px solid #1287bf;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+.formDiv .company{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    height: 50px;
+    border: 2px solid #1287bf;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding-left: 5px;
+}
+.formDiv button{
+    display: block;
+    margin: 0 auto;
+}
+.cross{
+    position: absolute;
+    top: 0;
+    right: 14%;
+    font-size: 30px;
+}
+
+footer{
+    background: #2a2a2a;
+    min-height: 86vh;
+    padding-top: 22px;
+}
+footer h4{
+    color: #fff;
+    padding-top: 7%;
+    font-weight: 400;
+    font-size: 30px;
+}
+.lastNav li{
+    border: 1px solid #887b7b;
+    margin-left: 20px;
+    transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+}
+.lastNav li a{
+    color: #fff;
+}
+.footerText{
+    padding-top: 40px;
+}
+p{
+    color: #878787;
+}
+.footerText input[type="email"]{
+    width: 45%;
+    display: block;
+    margin: 0px auto;
+    height: 50px;
+    background: #515151;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding-left: 5px;
+}
+.footerText button{
+    background: #2a2a2a;
+    border: 1px solid #847a7a;
+    color: #fff;
+}
+.copyRight{
+    margin-top: 25px;
+    height: 50px;
+    background: #4a4848;
+}
+.copyRight p{
+    text-align: center;
+    line-height: 20px;
+    font-size: 20px;
+}
